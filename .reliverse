@@ -1,0 +1,61 @@
+{
+  "experimental": {
+    "skipPromptsUseAutoBehavior": false,
+    "deployBehavior": "prompt",
+    "depsBehavior": "prompt",
+    "gitBehavior": "prompt",
+    "i18nBehavior": "prompt",
+    "scriptsBehavior": "prompt"
+  },
+  "projectName": "my-app",
+  "projectAuthor": "user",
+  "projectDescription": "",
+  "projectVersion": "1.0.0",
+  "projectLicense": "MIT",
+  "projectRepository": "",
+  "features": {
+    "i18n": true,
+    "analytics": false,
+    "themeMode": "dark-light",
+    "authentication": true,
+    "api": true,
+    "database": true,
+    "testing": false,
+    "docker": false,
+    "ci": false,
+    "commands": [],
+    "webview": [],
+    "language": [],
+    "themes": []
+  },
+  "projectFramework": "nextjs",
+  "projectPackageManager": "bun",
+  "preferredLibraries": {
+    "stateManagement": "zustand",
+    "formManagement": "react-hook-form",
+    "styling": "tailwind",
+    "uiComponents": "shadcn-ui",
+    "testing": "bun",
+    "authentication": "clerk",
+    "database": "drizzle",
+    "api": "trpc"
+  },
+  "codeStyle": {
+    "dontRemoveComments": true,
+    "shouldAddComments": true,
+    "typeOrInterface": "interface",
+    "importOrRequire": "import",
+    "quoteMark": "double",
+    "semicolons": true,
+    "lineWidth": 80,
+    "indentStyle": "space",
+    "indentSize": 2,
+    "importSymbol": "~",
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "arrowParens": "always",
+    "tabWidth": 2
+  },
+  "configLastRevalidate": "2024-12-29T22:38:27.252Z",
+  "configRevalidateFrequency": "2d"
+}
